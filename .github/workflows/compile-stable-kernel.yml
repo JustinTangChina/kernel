@@ -53,11 +53,11 @@ on:
       kernel_sign:
         description: "Set the kernel custom signature"
         required: false
-        default: "-ophub"
+        default: "-justin"
         type: choice
         options:
           - -ophub
-          - -yourname
+          - -justin
       kernel_config:
         description: "Set the path of kernel .config"
         required: false
